@@ -146,6 +146,8 @@ export default async function RootLayout({
             </SiteProvider>
           </NavigationLoadingProvider>
         </ThemeProvider>
+        {/* 添加 VideoTogether 一起看功能 */}
+        <script src="https://2gether.video/release/extension.website.user.js" />
       </body>
     </html>
   );
